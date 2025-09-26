@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #D39A8A;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 800px;
+    height: 100%;
+}
+
+.container-imagem{
+    margin-top: 75px;
+    background-color: #D39A8A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-imagem p{
+    color: white;
+    margin-top: 3px;
+}
+.img{
+    background-image: url("./Perfil\ Carolina.jpg");
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.container-botoes{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botoes{
+    width: 90%;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color:  #D39A8A;
+    box-shadow: 7px 5px 13px 7px  #d09585;
+-webkit-box-shadow: 7px 5px 13px 7px #d09585;
+-moz-box-shadow: 7px 5px 13px 7px #d09585;
+}
+
+.botoes i{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.botoes p{
+    flex: 1;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.botoes:hover{
+    background-color:  #d09585;
+    cursor: pointer;
+    width: 92%;
+    height: 62px;
+}
